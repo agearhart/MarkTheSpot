@@ -1,0 +1,17 @@
+﻿Privacy Policy
+This privacy policy governs your use of a software application (“Application”) on a mobile device that was created by Andrew Gearhart.  The Application includes GPS tracking of positions as requested by the user.
+
+User Provided Information
+The Application obtains the current GPS location of the user when the user requests that their current spot be marked. This application does collect precise information about the location of your device.  We use your location information to Provide requested location services. You may at any time opt-out from further allowing us to have access to your location data by going to the Change Location Policy menu option and clicking Cancel.  For more information, please see the section below entitled “opt-out rights.” 
+
+Opt-Out Rights
+Opt-out of all information collection by uninstalling the Application – You can stop all collection of information by the Application easily by uninstalling the Application.  You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.   
+
+Security
+We are concerned about safeguarding the confidentiality of your information.  GPS location data is only stored on your physical device in an encrypted format.
+
+Changes
+This Privacy Policy may be updated from time to time for any reason.  We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy to the Application during updates.
+
+Your Consent 
+By using the Application, you are consenting to our processing of User Provided information as set forth in this Privacy Policy now and as amended by us.  "Processing,” means using cookies on a computer/hand held device or using or touching information in any way, including, but not limited to, collecting, storing, deleting, using, combining and disclosing information.

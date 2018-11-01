@@ -1,0 +1,56 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MarkTheSpot.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <StackPanel>
+        <Button x:Name="MarkBtn" Click="MarkBtn_Click">
+            <TextBlock Text="Mark This Spot"/>
+        </Button>
+
+        <Popup x:Name="NamePopUp" Margin="12,0" >
+            <Grid Width="455">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Spot Name:"></TextBlock>
+                <TextBox Grid.Row="1" Grid.Column="0" x:Name="SpotName"></TextBox>
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Row="2" Grid.Column="0" x:Name="SaveMarkBtn" Click="SaveMarkBtn_Click">
+                        <TextBlock Text="Save"></TextBlock>
+                    </Button>
+                    <Button Grid.Row="2" Grid.Column="1" x:Name="CancelMarkBtn" Click="CancelMarkBtn_Click">
+                        <TextBlock Text="Cancel" RenderTransformOrigin="3.503,0.553"></TextBlock>
+                    </Button>
+                </Grid>
+            </Grid>
+        </Popup>
+
+        <ScrollViewer>
+            <StackPanel x:Name="DynamicPanel"></StackPanel>
+        </ScrollViewer>
+    </StackPanel>
+
+</phone:PhoneApplicationPage>
